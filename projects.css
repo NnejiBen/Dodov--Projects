@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* GENERAL */
+
+/* Abbreviations used:
+numcol : Number column
+imgcol : Image column
+parcol : Paragraph column
+num : number
+sec : secondary text */
+
+body {
+background-color: #1e1f1c;
+}
+
+main {
+    background-color: #272822;
+    width: 60%;
+    margin: 100px auto 0 auto;
+    padding-top: 25px;
+}
+
+h1 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #f8f8f2;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    font-size: 1.17em;
+    color: #f8f8f2;
+}
+
+p {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #f8f8f2;
+    margin-right: 100px;
+}
+
+a {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #a6e22e;
+}
+
+.num {
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+    color: #cfcfc2;
+    margin: 5px 25px 5px 35px;
+}
+
+.sec {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    color: #cfcfc2;
+
+}
+
+#row {
+    display: flex;
+}
+
+#numcol {
+
+}
+
+#imgcol {
+    margin-right: 20px;
+
+}
+
+#parcol {
+
+}
