@@ -22,7 +22,7 @@ background-color: #1e1f1c;
 
 main {
     background-color: #272822;
-    width: 60%;
+    width: 70%;
     margin: 100px auto 0 auto;
     padding-top: 25px;
 }
@@ -32,8 +32,6 @@ h1 {
     font-weight: 700;
     font-size: 1.25rem;
     color: #f8f8f2;
-    margin-top: 3px;
-    margin-bottom: 5px;
 }
 
 .h3-heading {
@@ -60,6 +58,7 @@ p {
     font-weight: 500;
     font-size: 1.125rem;
     color: #a6e22e;
+    text-decoration: underline;
 }
 
 .link:hover {
@@ -70,7 +69,7 @@ p {
     font-family: 'Fira Code', monospace;
     font-weight: 300;
     color: #cfcfc2;
-    margin: 5px 25px 5px 35px;
+    margin: 3px 25px 3px 35px;
     /* text-align: right; */
 }
 
@@ -88,11 +87,22 @@ p {
     
 }
 
+.nexo-image-col {
+    margin-left: 10px;
+}
+
 #imgcol {
     margin-right: 20px;
-
 }
 
 #parcol {
 
+}
+
+#hrcol {
+    display: flex;
+}
+
+hr {
+width: 520px;
 }
