@@ -33,6 +33,7 @@ h1 {
     font-weight: 700;
     font-size: 1.25rem;
     color: #f8f8f2;
+    margin-left: 7px;
 }
 
 .h3-heading {
@@ -78,6 +79,7 @@ p {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     color: #cfcfc2;
+    margin-left: 7px;
 }
 
 #row {
@@ -85,7 +87,7 @@ p {
 }
 
 #numcol {
-    
+
 }
 
 .nexo-image-col {
