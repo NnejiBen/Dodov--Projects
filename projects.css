@@ -36,13 +36,17 @@ h1 {
     margin-bottom: 5px;
 }
 
-h3 {
+.h3-heading {
     font-family: 'Fira Code', monospace;
     font-weight: 700;
     font-size: 1.17em;
     color: #f8f8f2;
 }
 
+.h3-heading:hover {
+    color: #4e94ce;
+}
+    
 p {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
@@ -51,11 +55,15 @@ p {
     margin-right: 100px;
 }
 
-a {
+.link {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     font-size: 1.125rem;
     color: #a6e22e;
+}
+
+.link:hover {
+    color: #4e94ce;
 }
 
 .num {
@@ -63,13 +71,13 @@ a {
     font-weight: 300;
     color: #cfcfc2;
     margin: 5px 25px 5px 35px;
+    /* text-align: right; */
 }
 
 .sec {
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     color: #cfcfc2;
-
 }
 
 #row {
@@ -77,7 +85,7 @@ a {
 }
 
 #numcol {
-
+    
 }
 
 #imgcol {
