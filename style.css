@@ -25,6 +25,7 @@ main {
     width: 70%;
     margin: 100px auto 0 auto;
     padding-top: 25px;
+    padding-bottom: 500px;
 }
 
 h1 {
@@ -103,6 +104,24 @@ p {
     display: flex;
 }
 
+.hr-container {
+    margin-top: 10px;
+}
+
 hr {
-width: 520px;
+border: 1px dashed #cfcfc2;
+width: 600px;
+text-align: right;
+}
+
+.hr-par {
+    margin-right: 10px;
+}
+
+#links-container {
+    display: flex;
+}
+
+.center-dot {
+    margin: 0 10px 0 10px;
 }
